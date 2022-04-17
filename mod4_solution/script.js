@@ -13,7 +13,7 @@ smiat[9]="jim";
 let index = 0;
 
 for (let i = 0; i < smiat.length; i++){
-    if(smiat[i].chatAT(index) === "J" || smiat[i].charAt(index) === "j"){
+    if(smiat[i].charAT(index) === "J" || smiat[i].charAt(index) === "j"){
         console.log("Goodbye " + smiat[i]);
     }else {
         console.log("Hello " + smiat[i])
